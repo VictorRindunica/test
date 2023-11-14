@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <h2>Simple text inputs</h2>
+    <form action="lists.html" method="get">
+      <input type="text" name="prenume" placeholder="Prenume" /> <br />
+      <input type="text" name="numeFamilie" placeholder="Nume de familie" />
+    </form>
+
+    <br />
+
+    <h2>Submit button form</h2>
+    <form action="lists.html" method="get">
+      <label for="prenume">Prenume</label>
+      <input type="text" name="prenume" id="prenume" /> <br />
+
+      <label for="numeFamilie">Nume de familie</label>
+      <input type="text" name="numeFamilie" id="numeFamilie" />
+
+      <br />
+
+      <input type="submit" value="Register" />
+    </form>
+
+    <br />
+
+    <h2>Password input</h2>
+    <form action="lists.html" method="post">
+      <input type="text" name="username" placeholder="Username" />
+      <br />
+      <input type="password" name="password" placeholder="Password" />
+      <br />
+      <input type="submit" value="Login" />
+    </form>
+
+    <br />
+
+    <h2>Checkbox</h2>
+    <form action="lists.html">
+      <label for="mustar">Mustar iute</label>
+      <input type="checkbox" name="mustar" id="mustar" value="iute" checked />
+      <br />
+      <label for="mustar">Mustar dulce</label>
+      <input type="checkbox" name="mustar" id="mustar" value="dulce" />
+
+      <br />
+      <button>Submit</button>
+    </form>
+
+    <br />
+
+    <h2>Radio</h2>
+    <form action="lists.html">
+      <input type="radio" name="size" id="XS" value="XS" checked />
+      <label for="XS">XS</label>
+
+      <br />
+
+      <input type="radio" name="size" id="S" value="S" />
+      <label for="S">S</label>
+
+      <br />
+
+      <input type="radio" name="size" id="M" value="M" />
+      <label for="M">M</label>
+
+      <br />
+
+      <input type="submit" />
+    </form>
+
+    <br />
+
+    <h2>Reset</h2>
+    <form action="lists.html">
+      <input readonly type="text" name="username" placeholder="Username" />
+      <br />
+      <input type="password" name="password" placeholder="Password" />
+      <br />
+      <input type="submit" value="Login" />
+      <input type="reset" />
+    </form>
+
+    <br />
+
+    <h2>Select + button</h2>
+    <form action="lists.html">
+      <select required name="cursuri">
+        <option value="java">Java</option>
+        <option value="python">Python</option>
+        <option value="cplusplus">C++</option>
+        <option value="javascript">JavaScript</option>
+      </select>
+
+      <button type="button">Login</button>
+      <input type="button" value="Click me" />
+    </form>
+
+    <br />
+    <h2>Text area</h2>
+    <form action="lists.html">
+      <textarea required name="story" id="story" rows="5"></textarea>
+    </form>
+
+    <br />
+    <h2>Date input</h2>
+    <form>
+      <label for="data1">Introduceti o data inainte de 1980-01-01:</label>
+      <input type="date" name="data1" id="data1" max="1979-12-31" /><br />
+
+      <label for="data2">Introduceti o data dupa 2000-01-01:</label>
+      <input type="date" name="data2" id="data2" min="2000-01-02" /><br />
+    </form>
+
+    <br />
+    <h2>File + range + number</h2>
+    <form>
+      <fieldset>
+        <legend>My title</legend>
+        <input type="file" name="myFile" />
+        <input type="range" name="nota" min="0" max="100" />
+        <br />
+        <input type="number" name="quantity" min="1" max="5" />
+        <br />
+        <input type="email" name="email" />
+        <br />
+        <input type="search" name="search" />
+      </fieldset>
+    </form>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+  </body>
+</html>
